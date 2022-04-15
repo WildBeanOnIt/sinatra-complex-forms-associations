@@ -2,7 +2,7 @@
 
 <form action="/owners" method="POST">
   <label>Owner Name:</label>
-  <input type="text" name="owner[name]">
+  <input type="text" name="owner[name]" required>
   <br>
 
 
@@ -17,6 +17,7 @@
   <h3>New Pet</h3>
   <label>Pet Name:</label>
   <br>
+  <p>Add or create a new pet:</p>
   <input type="text" name="pet[name]" id="pet_name"/>
   <br><br>
   <input type="submit" value="Create Owner">

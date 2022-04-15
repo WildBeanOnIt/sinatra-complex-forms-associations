@@ -5,3 +5,12 @@
   <li><%=pet.name%></li>
   <%end%>
 </ul>
+
+
+<a href="/owners/new">
+  <button>Create a new Pet or Owner</button>
+</a>
+<br><br>
+<a href="/owners/<%= @owner.id %>/edit">
+  <button>Edit your Pet/Owner.</button>
+</a>
